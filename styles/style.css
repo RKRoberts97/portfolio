@@ -121,3 +121,32 @@ footer a{
 .project-header, .project-date, .project-description {
     width: 100%; 
 }
+
+.skill-section {
+    width: 100%;
+    padding: 1em 0;
+    margin-bottom: 2em;
+    box-sizing: border-box;
+}
+
+.skill-show-off {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em; 
+    width: 100%;
+    justify-items: center; 
+}
+
+.skill-show-off .example-1, 
+.skill-show-off .example-2, 
+.skill-show-off .example-3, 
+.skill-show-off .example-4 {
+    text-align: center; 
+}
+
+.skill-picture {
+    width: 200px;  
+    height: 200px; 
+    object-fit: cover; 
+    margin: 0 auto; 
+}
